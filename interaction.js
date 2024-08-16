@@ -33,7 +33,7 @@ async function main() {
         solanaWeb3.SystemProgram.transfer({
             fromPubkey: sender.publicKey,
             toPubkey: receiver.publicKey,
-            lamports: solanaWeb3.LAMPORTS_PER_SOL / 100, // Transfer 0.01 SOL
+            lamports: solanaWeb3.LAMPORTS_PER_SOL / 100, // Transfering 0.01 SOL
         })
     );
 
